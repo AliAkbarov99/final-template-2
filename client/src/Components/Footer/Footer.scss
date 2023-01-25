@@ -1,0 +1,19 @@
+#footer{
+    height: 200px;
+    background: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{
+        text-align: center;
+        color: #a5a5a5;
+
+        & span:first-child{
+            color: red;
+        }
+
+        & span:last-child{
+            color: rgb(33, 33, 194);
+        }
+    }
+}
